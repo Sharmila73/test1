@@ -1,0 +1,11 @@
+import React from "react";
+import reactDom from "react-dom";
+function FragmentDemo(){
+    return(
+        <React.Fragment>
+             <h1>FragmentDemo</h1>
+             <p>this is FragmentDemo example</p>
+        </React.Fragment>
+    )
+}
+export default FragmentDemo
